@@ -1,4 +1,4 @@
-#PYTHON if/else, loops, functions
+# PYTHON if/else, loops, functions
 This project utilizes skills gained in Python programming by utilizing conditionals and loops in Python by using: 
 * if, 
 * if ... else, 
