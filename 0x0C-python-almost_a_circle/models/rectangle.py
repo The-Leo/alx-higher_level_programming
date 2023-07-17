@@ -64,3 +64,25 @@ class Rectangle(Base):
             raise ValueError("height must be > 0")
 
         self.__height = value
+
+        @property
+    def x(self):
+        """
+            getter function for x.
+            Returns: x
+        """
+        return self.__x
+
+    @x.setter
+    def x(self, value):
+        """
+            setter function for x.
+            Args:
+                value (int): value to be set.
+        """
+        if type(value) != int:
+            raise TypeError("x must be an integer")
+        if value < 0:
+            raise ValueError("x must be >= 0")
+
+        self.__x = value
