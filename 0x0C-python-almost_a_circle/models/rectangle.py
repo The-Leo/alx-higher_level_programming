@@ -21,7 +21,7 @@ class Rectangle(Base):
         self.x = x
         self.y = y
 
-        @property
+    @property
     def width(self):
         """
             getter function for __width
@@ -43,7 +43,7 @@ class Rectangle(Base):
 
         self.__width = value
 
-            @property
+    @property
     def height(self):
         """
             getter function for height
@@ -65,7 +65,7 @@ class Rectangle(Base):
 
         self.__height = value
 
-        @property
+    @property
     def x(self):
         """
             getter function for x.
@@ -87,7 +87,7 @@ class Rectangle(Base):
 
         self.__x = value
 
-            @property
+    @property
     def y(self):
         """
             getter function for y
@@ -109,7 +109,7 @@ class Rectangle(Base):
 
         self.__y = value
 
-         def area(self):
+    def area(self):
         """
             returns the area of the Rectangle instance.
         """
@@ -142,7 +142,7 @@ class Rectangle(Base):
                                                 self.__x, self.__y,
                                                 self.__width, self.__height)
 
-        def update(self, *args, **kwargs):
+    def update(self, *args, **kwargs):
         """
             assigns key/value argument to attributes
             kwargs is skipped if args is not empty
