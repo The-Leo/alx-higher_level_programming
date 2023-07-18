@@ -15,7 +15,7 @@ class Square(Rectangle):
         """
         super().__init__(size, size, x, y, id)
 
-            @property
+    @property
     def size(self):
         """
             returns the size of the square
@@ -35,7 +35,7 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
-            def update(self, *args, **kwargs):
+    def update(self, *args, **kwargs):
         """
             assigns key/value argument to attributes
             kwargs is skipped if args is not empty
